@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container-el" class="container">
+      <div>
+        <img
+          id="theme-icon"
+          onclick="toggleTheme()"
+          src="https://img.icons8.com/sf-regular-filled/48/000000/moon-symbol.png"
+        />
+        <!-- <img src="https://img.icons8.com/office/40/000000/sun--v1.png" /> -->
+      </div>
+      <header class="header">
+        <h1 id="title-el" class="">
+          Generate a <br /><span>random password</span>
+        </h1>
+        <p>Never use an insecure password again.</p>
+        <button
+          id="generatePassword-el"
+          class="button-green"
+          onclick="generatePasswords()"
+        >
+          Generate passwords
+        </button>
+        <b id="error-el" class="error">password already generated </b>
+      </header>
+
+      <div class="btn-group">
+        <button onclick="copyToClipboard(1)" id="password-one-el" class="button-dark"></button>
+        <button onclick="copyToClipboard(2)" id="password-tow-el" class="button-dark"></button>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
