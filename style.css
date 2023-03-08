@@ -15,7 +15,6 @@ body {
   background-color: var(--dark-blue-700);
   font-family: "Karla", sans-serif;
   margin: 0;
-  
 }
 
 /* typo */
@@ -41,6 +40,17 @@ p {
   font-size: 1.2rem;
 }
 
+.theme-icon-wrapper {
+  position: absolute;
+  top: 15%;
+  right: 35%;
+}
+
+.white-mode {
+  background-color: var(--green-100);
+  color: var(--dark-blue-400);
+}
+
 /* main */
 
 .container {
@@ -53,11 +63,7 @@ p {
 .container>* {
   grid-column: 2
 }
-.theme-icon-wrapper{
-  position: absolute;
-  top: 15%;
-  right: 35%;
-}
+
 .green-title {
   color: var(--green-700);
   display: block;
@@ -71,7 +77,9 @@ p {
 }
 
 .info {
-  border-bottom: 2px solid #2F3E53
+  border-bottom: 2px solid #2F3E53;
+  text-shadow: -1.5px 0px 1px var(--dark-blue-400)
+
 }
 
 .passwords-wrapper {
@@ -98,10 +106,10 @@ p {
     flex-direction: column;
   }
 
-  .theme-icon-wrapper{
-  position: absolute;
-  right: 7%;
-}
+  .theme-icon-wrapper {
+    position: absolute;
+    right: 7%;
+  }
 
 }
 

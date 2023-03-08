@@ -12,14 +12,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap" rel="stylesheet" />
 </head>
 
-<body>
+<body id="body-el">
   <!-- <div id="container-el" class="container">
-      <div>
-        <img
-          id="theme-icon"
-          onclick="toggleTheme()"
-          src="https://img.icons8.com/sf-regular-filled/48/000000/moon-symbol.png" />
-      </div>
       <header class="header">
         <h1 id="title-el" class="">
           Generate a <br /><span>random password</span>
@@ -45,24 +39,23 @@
           class="button-dark"></button>
       </div>
     </div> -->
-  <div class="container">
+  <div id="container-el" class="container">
     <div class="info">
-      <h1 class="title">Generate a <span class="green-title">random password</span></h1>
+      <h1 id="title-el" class="title">Generate a <span class="green-title">random password</span></h1>
       <p class="sub-title">Never use an insecure password again.</p>
-      <button class="btn btn-primary">Generate passwords</button>
+      <button id="generatePassword-btn" class="btn btn-primary">Generate passwords</button>
       <div class="theme-icon-wrapper">
-        <img
-          id="theme-icon"
-          onclick="toggleTheme()"
-          src="https://img.icons8.com/sf-regular-filled/48/000000/moon-symbol.png" />
+        <img id="theme-icon" src="https://img.icons8.com/sf-regular-filled/48/000000/moon-symbol.png" />
       </div>
     </div>
     <div class="passwords-wrapper">
-      <button id="btn-password" class="btn btn-accent">nfJjy!dDvR&ial</button>
-      <button id="btn-password" class="btn btn-accent">nfJjy!dDvR&ial</button>
+      <button class="btn btn-accent" id="password-one-el" data-order="1"> nfJjy!dDvR&ial</button>
+      <button class="btn btn-accent" id="password-tow-el" data-order="1"> nfJjy!5555</button>
     </div>
   </div>
-  <script src="./main.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script type="module" src="./js/characters.js"></script>
+  <script type="module" src="./js/main.js"></script>
 </body>
 
 </html>
