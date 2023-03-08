@@ -1,89 +1,104 @@
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
+
 :root {
-    --green-700: #4adf86;
-    --green-400: #10B981;
-    --green-100: #ECFDF5;
-    --white: #ffffff;
+  --green-700: #4adf86;
+  --green-400: #10B981;
+  --green-100: #ECFDF5;
+  --white: #ffffff;
   --dark-blue-700: #1f2937;
   --dark-blue-400: #273549;
   --gray: #a2a2a3;
 }
+
 body {
   background-color: var(--white);
   font-family: "Karla", sans-serif;
-
+  background-color: #a2a2a3;
+  margin: 0;
 }
+
 .container {
   margin: 40px auto;
-  width: 550px;
-  height: 500px;
+  width: 450px;
+  height: 370px;
   background-color: var(--dark-blue-700);
+  border-radius: 50% 15%;
 }
+
 .header {
   padding: 80px 0 35px 52px;
 
 }
+
 h1 {
   color: var(--white);
   font-weight: 800;
   font-size: 40px;
   line-height: 40px;
-  
+
 }
+
 span {
   color: var(--green-700);
 }
+
 p {
   color: var(--gray);
-  padding: 13px 0px 50px 0px ;
+  padding: 13px 0px 50px 0px;
   font-size: 20px;
   line-height: 28px;
-  
-}
-button{
-    padding: 10px 15px;
-    border: none;
-    border-radius: 6px;
-    text-align: center;
-    font-size: 15px;
 
 }
-.button-green{
-    background-color: var(--green-400);
-    color: var(--white);
-    font-weight: 600px;
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 15px;
+
 }
-.button-dark{
-    background-color: var(--dark-blue-400);
-    color: var(--green-700);
-    padding-inline: 30px;
-    margin-inline: 10px;
-    min-width: 200px;
-    min-height: 38px;
+
+.button-green {
+  background-color: var(--green-400);
+  color: var(--white);
+  font-weight: 600px;
 }
-.btn-group{
-    border-top: 2px solid var(--dark-blue-400);
-    width: 445px;
-    margin: 0 auto;
-    padding-top: 35px;
-    text-align: center;
+
+.button-dark {
+  background-color: var(--dark-blue-400);
+  color: var(--green-700);
+  padding-inline: 30px;
+  margin-inline: 10px;
+  min-width: 200px;
+  min-height: 38px;
 }
-.error{
-    padding-top: 10px;
-    color: rgb(196, 46, 46);
-    display: none;
-} 
-.display{
-    display: block;
+
+.btn-group {
+  border-top: 2px solid var(--dark-blue-400);
+  width: 445px;
+  margin: 0 auto;
+  padding-top: 35px;
+  text-align: center;
 }
-.white-mode{
-background-color: var(--green-100);
-color: var(--dark-blue-400);
+
+.error {
+  padding-top: 10px;
+  color: rgb(196, 46, 46);
+  display: none;
 }
-#theme-icon{
-    padding: 5px;
+
+.display {
+  display: block;
+}
+
+.white-mode {
+  background-color: var(--green-100);
+  color: var(--dark-blue-400);
+}
+
+#theme-icon {
+  padding: 5px;
 }

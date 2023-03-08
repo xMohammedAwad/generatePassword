@@ -108,6 +108,7 @@ function generatePasswords() {
   checkGeneratedPassWord();
   displayPasswords();
 }
+
 function checkGeneratedPassWord() {
   if (passwordOne.length > 10) {
     generatePasswordEl.setAttribute("disabled", false);
@@ -145,7 +146,7 @@ function toggleTheme() {
 }
 
 function copyToClipboard(number) {
-    alert("copied")
+  alert("copied")
   if (number == 1) {
     return navigator.clipboard.writeText(passwordOneEL.innerHTML);
   } else {
