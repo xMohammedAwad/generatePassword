@@ -3,22 +3,109 @@
 }
 
 :root {
-  --green-700: #4adf86;
-  --green-400: #10B981;
+  --green-700: #10B981;
   --green-100: #ECFDF5;
   --white: #ffffff;
+  --gray: #D5D4D8;
   --dark-blue-700: #1f2937;
   --dark-blue-400: #273549;
-  --gray: #a2a2a3;
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--dark-blue-700);
   font-family: "Karla", sans-serif;
-  background-color: #a2a2a3;
   margin: 0;
+  
 }
 
+/* typo */
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--white);
+  margin-bottom: -0.25em;
+
+}
+
+p {
+  font-size: 1.25rem;
+  color: var(--gray);
+  line-height: 28px;
+}
+
+.btn {
+  width: 45%;
+  min-height: 40px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+/* main */
+
+.container {
+  display: grid;
+  grid-template-columns: minmax(1em, 1fr) minmax(300px, 500px) minmax(1em, 1fr);
+  padding-top: 3em;
+  position: relative;
+}
+
+.container>* {
+  grid-column: 2
+}
+.theme-icon-wrapper{
+  position: absolute;
+  top: 15%;
+  right: 35%;
+}
+.green-title {
+  color: var(--green-700);
+  display: block;
+}
+
+.btn-primary {
+  color: var(--white);
+  background-color: var(--green-700);
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.info {
+  border-bottom: 2px solid #2F3E53
+}
+
+.passwords-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2.2em;
+}
+
+.btn-accent {
+  background-color: var(--dark-blue-400);
+  color: var(--green-700);
+}
+
+@media (max-width:500px) {
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 0.5em 0;
+    margin-bottom: 1em;
+  }
+
+  .passwords-wrapper {
+    padding-top: 1.5em;
+    flex-direction: column;
+  }
+
+  .theme-icon-wrapper{
+  position: absolute;
+  right: 7%;
+}
+
+}
+
+/* 
 .container {
   margin: 40px auto;
   width: 450px;
@@ -101,4 +188,4 @@ button {
 
 #theme-icon {
   padding: 5px;
-}
+} */
