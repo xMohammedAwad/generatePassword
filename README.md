@@ -10,8 +10,6 @@
 
 ![screenshot](https://ncf-ec2-east-34-hv.xconvert.com/file/converter/download/csNph3l4wfF-z-0-y-64096bd2b2caae1aad3e56a1.gif)
 
-<!-- TABLE OF CONTENTS -->
-
 ## Table of Contents
 
 - [Overview](#overview)
@@ -23,9 +21,6 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
-<!-- Introduce your projects by taking a screenshot or a gif. Try to tell visitors a
-story about your project by answering: -->
 
 <!-- - Where can I see your demo?
 - What was your experience?
