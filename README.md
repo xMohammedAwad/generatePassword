@@ -8,7 +8,7 @@
   </h3>
 </div>
 
-![screenshot]()
+![screenshot](https://www.loom.com/share/0178ccc8606d4291aff902c60ef7f7a9)
 
 <!-- TABLE OF CONTENTS -->
 
