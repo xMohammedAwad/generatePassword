@@ -2,13 +2,13 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://muhmmadawd.github.io/generatePassword/">
       Live Demo
     </a>
   </h3>
 </div>
 
-![screenshot]()
+![screenshot](https://ncf-ec2-east-34-hv.xconvert.com/file/converter/download/csNph3l4wfF-z-0-y-64096bd2b2caae1aad3e56a1.gif)
 
 <!-- TABLE OF CONTENTS -->
 
@@ -31,7 +31,10 @@ story about your project by answering: -->
 - What was your experience?
 - What have you learned/improved?
 - Your wisdom? :) -->
-
+- how to use e.target and event delegation
+- learn to use distraction 
+- better naming for variable and functions
+- my wisdom is be sure are learn or just watch and type code without understand
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
@@ -46,7 +49,8 @@ story about your project by answering: -->
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 - generate random passwords app from figma design.
-- used grid css and separate functions to be like a story.
+- used grid css and css variable.
+- separate functions to be like a story
 - toggle from dark theme to light theme .
 - first time to work with clipboard API
 
